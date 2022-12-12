@@ -1,0 +1,14 @@
+Estatus Codes
+    - 200: Ok
+
+    ErroresCodes
+    - 400: No es posible interpretar la solicitud
+    - 406: No encuentra datos necesarios para la negociación || No coinciden los datos
+    - 408: No hay respuesta de algun servidor
+    - 535: Error al enviar el correo, la cuenta no es existente.
+
+    ErroresCodes - Database
+    - 701: No es posible realizar la peticion sql.
+    - 702: El usuario no coincide con ninguno en la base de datos.
+    - 1062: Error, campos duplicados
+    - 1064: Error en la sintaxis SQL
